@@ -1,4 +1,0 @@
-step 1: Create file called third_branch.txt
-step 2: coomit changes
-step 3: edit files again
-step 4: commit

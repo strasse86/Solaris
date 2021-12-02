@@ -1,9 +1,0 @@
-created a fourth_file
-
-added one more line
-
-this is one more new line
-
-new line after executing "git rebase -i HEAD~3"
-
-next I will squash the last 2 commits

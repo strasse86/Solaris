@@ -119,9 +119,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1638454654917">
+    <state x="192" y="97" key="MergeDialog" timestamp="1638461341325">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1638454654917" />
+    <state x="192" y="97" key="MergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1638461341325" />
+    <state x="601" y="308" key="MultipleFileMergeDialog" timestamp="1638461341363">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="601" y="308" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1638461341363" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1638461272665">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1638461272665" />
   </component>
 </project>

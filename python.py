@@ -1,1 +1,1 @@
-print("PPython is ok")
+print("Python is ok")

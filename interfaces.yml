@@ -1,4 +1,4 @@
-me: Hello World Sample
+name: Hello World Sample
   hosts: suse
   tasks:
     - name: Hello Message

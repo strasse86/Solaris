@@ -1,0 +1,14 @@
+me: Hello World Sample
+  hosts: suse
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+
+    - name: Print Hostname
+      command: cat /etc/hostname
+      register: echo
+      changed_when: False
+
+    - name: Print
+      debug: var=echo.stdout_lines

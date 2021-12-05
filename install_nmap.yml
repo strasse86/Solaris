@@ -1,4 +1,7 @@
-- name: Install nmap
-  ansible.builtin.package:
-    name: nmap
-    state: present
+- hosts: all
+  tasks:
+  - name: Package installation
+    dnf:
+      name:
+        - nmap
+      state: latest

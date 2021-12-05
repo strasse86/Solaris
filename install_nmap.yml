@@ -1,7 +1,7 @@
 - hosts: all
   tasks:
   - name: Nmap Package installation
-    ansible.builtin.package:
+    community.general.zypper:
            name: nmap
            state: present
            become: yes

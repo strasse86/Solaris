@@ -1,7 +1,6 @@
 - hosts: all
   tasks:
-  - name: Package installation
-    dnf:
-      name:
-        - nmap
-      state: latest
+  - name: Nmap Package installation
+    ansible.builtin.package:
+           name: nmap
+           state: present

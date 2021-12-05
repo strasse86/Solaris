@@ -4,3 +4,4 @@
     ansible.builtin.package:
            name: nmap
            state: present
+           become: yes

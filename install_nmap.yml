@@ -1,7 +1,8 @@
+---
 - hosts: all
+  become: yes
   tasks:
-  - name: Nmap Package installation
-    community.general.zypper:
-           name: nmap
-           state: present
-           become: yes
+  - name: Make sure the current version of ‘nmap’ is installed.
+    zypper:
+      name: nmap
+      state: present

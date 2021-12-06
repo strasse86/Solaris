@@ -4,7 +4,6 @@
         tasks:
                 - name: Execute 'date' command
                   command: date
-
-                - name: Print date
                   register: date
                   debug: var=date.stdout_lines
+

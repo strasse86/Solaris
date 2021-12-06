@@ -4,3 +4,4 @@
                 - zypper:
                           name: python-xml
                           state: present
+                          become: yes

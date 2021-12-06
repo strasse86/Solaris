@@ -1,0 +1,6 @@
+-
+        name: Execute date command
+        hosts: suse
+        tasks:
+                - name: Execute 'date' command
+                  command: date

@@ -1,6 +1,7 @@
       - name: Install python-xml
         hosts: suse
         become: yes
+        tasks:
               - zypper:
                        name: python-xml
                        state: present

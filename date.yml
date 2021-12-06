@@ -5,5 +5,7 @@
                 - name: Execute 'date' command
                   command: date
                   register: date
+
+                - name: Print date  
                   debug: var=date.stdout_lines
 

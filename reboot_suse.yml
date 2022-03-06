@@ -1,4 +1,0 @@
----
-- hosts: suse
-  become: yes
-  reboot:
